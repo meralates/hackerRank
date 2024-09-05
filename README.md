@@ -1,5 +1,5 @@
+//It lists the players in descending order according to their scores, or alphabetically by their names if the scores are equal.
 import java.util.*;
-
 class Checker implements Comparator<Player>{
     @Override
     public int compare(Player a,Player b){
